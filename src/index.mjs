@@ -8,7 +8,7 @@ export const handler = async (event, context) => {
     config: {
       fromEmail: process.env.MAIL_RECEIVING,
       emailBucket: process.env.STORAGE_BUCKET,
-      emailKeyPrefix: "",
+      emailKeyPrefix: process.env.STORAGE_KEY_PREFIX,
       forwardMapping: {
         [process.env.MAIL_RECEIVING]: [
           process.env.MAIL_TO_FORWARD
