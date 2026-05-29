@@ -1,0 +1,26 @@
+{
+  "name": "mail-forwarding-lambda",
+  "version": "1.0.0",
+  "description": "A lambda that forwards emails",
+  "homepage": "https://github.com/nikpappas/mail-forwarding-lambda#readme",
+  "bugs": {
+    "url": "https://github.com/nikpappas/mail-forwarding-lambda/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikpappas/mail-forwarding-lambda.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "check": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0"
+  }
+}
